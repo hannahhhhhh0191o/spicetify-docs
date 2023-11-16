@@ -1,6 +1,6 @@
 ---
 title: Uninstallation
-description: 🗑 How to remove Spicetify.
+description: 🗑 How to apply Spicetify.
 ---
 
 ## Windows
@@ -26,3 +26,6 @@ spicetify restore
 rm -rf ~/.spicetify
 rm -rf ~/.config/spicetify
 ```
+spicetify restore
+rmdir -r -fo $env:APPDATA\spicetify
+rmdir -r -fo $env:LOCALAPPDATA\spicetify
